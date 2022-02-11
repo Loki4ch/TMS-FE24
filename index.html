@@ -1,211 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-
 	<title>AXIT</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-	<header>
-		<nav>
-			<a href="">
-				<img src="./images/logo.svg" alt="LogoOnNav">
+	<header class="header">
+		<nav class="header__nav">
+			<a href="" class="header__logo-link">
+				<img src="./images/logo.svg" alt="LogoOnNav" class="header__logo-image">
 			</a>
-			<ul>
-				<li><a href="">Features</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Pricing</a></li>
-				<li><a href="">Reviews</a></li>
-				<li><a href="">Contact</a></li>
+			<ul class="header__menu">
+				<li class="header__menu__item"><a href="" class="header__menu__link">Features</a></li>
+				<li class="header__menu__item"><a href="" class="header__menu__link">About</a></li>
+				<li class="header__menu__item"><a href="" class="header__menu__link">Pricing</a></li>
+				<li class="header__menu__item"><a href="" class="header__menu__link">Reviews</a></li>
+				<li class="header__menu__item"><a href="" class="header__menu__link">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<!--Main Banner-->
-		<section>
-			<div><img src="./images/logo.svg" alt="LogoOnBanner"></div>
-			<div><h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1></div>
-			<div>
-				<hr>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-				<a href="">Download</a>
-			</div>
-			<!--Form-->
-			<div>
-				<h3>TRY YOUR FREE TRIAL TODAY</h3>
-				<ul>
-					<li>
-						<p>Name</p>
-						<input type="text">
-					</li>
-					<li>
-						<p>Email</p>
-						<input type="text">
-					</li>
-					<li>
-						<p>Password</p>
-						<input type="text">
-					</li>
-				</ul>
-				<button>Get Started</button>
-			</div>
-		</section>
+	<section class="main-banner">
+		<div class="main-banner__logo-block"><img src="./images/logo.svg" alt="LogoOnBanner"
+				class="main-banner__logo-image"></div>
+		<div class="main-banner__header-text">
+			<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+		</div>
+		<div class="main-banner__block-under-h1">
+			<hr class="main-banner__hr">
+			<p class="main-banner__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+			<button class="main-banner__download-button">Download</button>
+		</div>
+		<!--Form-->
+		<div class="main-banner__form">
+			<h3>TRY YOUR FREE TRIAL TODAY</h3>
+			<ul>
+				<li>
+					<p>Name</p>
+					<input type="text">
+				</li>
+				<li>
+					<p>Email</p>
+					<input type="text">
+				</li>
+				<li>
+					<p>Password</p>
+					<input type="text">
+				</li>
+			</ul>
+			<button>Get Started</button>
+		</div>
+	</section>
 
 	<main>
-		<section>
-			<h3>Social Media</h3>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, rem!</p>
-			<ul>
-				<!-- Представим, что все картинки разные ;) -->
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-				<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
+		<section class="social-media">
+			<h3 class="social-media__header-text">Social Media</h3>
+			<p class="social-media__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, rem!
+			</p>
+			<ul class="social-media__link-list">
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector.svg" alt="facebook" class="social-media__link-list__image"></a></li>
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector (4).svg" alt="facebook" class="social-media__link-list__image"></a></li>
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector (5).svg" alt="facebook" class="social-media__link-list__image"></a></li>
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector (6).svg" alt="facebook" class="social-media__link-list__image"></a></li>
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector (7).svg" alt="facebook" class="social-media__link-list__image"></a></li>
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector (8).svg" alt="facebook" class="social-media__link-list__image"></a></li>
+				<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
+							src="./images/Vector (9).svg" alt="facebook" class="social-media__link-list__image"></a></li>
 			</ul>
 		</section>
 
-		<section>
+		<section class="features">
 			<h2 hidden>Features</h2>
-			<ul>
-				<li><button>TAB 1</button></li>
-				<li><button>TAB 2</button></li>
-				<li><button>TAB 3</button></li>
+			<ul class="features__tabs-list">
+				<li class="features__tabs-list__item">TAB 1</li>
+				<li class="features__tabs-list__item">TAB 2</li>
+				<li class="features__tabs-list__item">TAB 3</li>
 			</ul>
-			<div>
-				<img src="./images/Rectangle 111.svg" alt="LibertyStatue">
-					<div>
-					<h2>Tabs with soft transitioning effect</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, unde tenetur ab debitis aperiam perferendis expedita nisi pariatur hic illo.</p>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, id.</p>
-					<a href="">Download</a>
-					</div>
+			<div class="features__main-block">
+				<div class="features__text-block">
+					<h2 class="features__text-block__header-text">Tabs with soft transitioning effect.</h2>
+					<p class="features__text-block__paragraph_1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Ad, unde tenetur ab debitis aperiam perferendis expedita nisi pariatur hic illo.</p>
+					<p class="features__text-block__paragraph_2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+						Deserunt, id.</p>
+					<button class="features__text-block__download-button">Download</button>
+				</div>
+				<img src="./images/Rectangle 111.svg" alt="LibertyStatue" class="features__image">
 			</div>
 		</section>
 
-		<section>
-			<h2>WHY THIS IS AWERSOME</h2>
-			<hr>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quas.</p>
-			<div>
-				<div>
-					<img src="./images/Vector (1).svg" alt="LightBulb">
-					<h3>Thoughtful Design</h3>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, adipisci.</p>
+		<section class="about">
+			<h2 class="about__header-text">WHY THIS IS AWERSOME</h2>
+			<hr class="about__hr">
+			<p class="about__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quas.</p>
+			<div class="about__main-block">
+				<div class="about__main-block__text-block">
+					<div class="about__main-block__image-block"><img src="./images/Vector (1).svg" alt="LightBulb"
+							class="about__main-block__image"></div>
+					<h3 class="about__main-block__header-text">Thoughtful Design</h3>
+					<p class="about__main-block__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Provident, adipisci.</p>
 				</div>
-				<div>
-					<img src="./images/Vector (2).svg" alt="Keyboard">
-					<h3>Thoughtful Design</h3>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, adipisci.</p>
+				<div class="about__main-block__text-block">
+					<div class="about__main-block__image-block"><img src="./images/Vector (2).svg" alt="Keyboard"
+							class="about__main-block__image"></div>
+					<h3 class="about__main-block__header-text">Thoughtful Design</h3>
+					<p class="about__main-block__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Provident, adipisci.</p>
 				</div>
-				<div>
-					<img src="./images/Vector (3).svg" alt="Lightning">
-					<h3>Thoughtful Design</h3>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, adipisci.</p>
-				</div>
-			</div>
-		</section>
-
-		<section>
-			<h2>PRICING OPTIONS</h2>
-			<hr>
-			<p>Lorem ipsum dolor sit amet.</p>
-			<div>
-				<div>
-					<div>
-						<h3>Basic</h3>
-						<div>$10</div>
-						<p>Free for life</p>
-						<ul>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-						</ul>
-					</div>
-				</div>
-				<div>
-					<div>
-						<h3>Optima</h3>
-						<div>$20</div>
-						<p>Free for life</p>
-						<ul>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-						</ul>
-					</div>
-				</div>
-				<div>
-					<div>
-						<h3>Pro</h3>
-						<div>$30</div>
-						<p>Free for life</p>
-						<ul>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-							<li>1 Gb Of Space</li>
-						</ul>
-					</div>
+				<div class="about__main-block__text-block">
+					<div class="about__main-block__image-block"><img src="./images/Vector (3).svg" alt="Lightning"
+							class="about__main-block__image"></div>
+					<h3 class="about__main-block__header-text">Thoughtful Design</h3>
+					<p class="about__main-block__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Provident, adipisci.</p>
 				</div>
 			</div>
 		</section>
 
-		<section>
-			<h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
-			<hr>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium?</p>
-			<div>
-				<div>
-					<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos quod aut esse iusto porro?</blockquote>
-					<div><img src="./images/Ellipse 7.svg" alt="DavisFace"></div>
-					<div>
-						<h4>Davis Rhiel Madsen</h4>
-						<p>Manager</p>
-					</div>
+		<section class="pricing">
+			<h2 class="pricing__header-text">PRICING OPTIONS</h2>
+			<hr class="pricing__hr">
+			<p class="pricing__paragraph">Lorem ipsum dolor sit amet.</p>
+			<div class="pricing__main-block">
+				<div class="pricing__main-block__box">
+					<h3 class="pricing__main-block__header-text">Basic</h3>
+					<div class="pricing__main-block__price">$10</div>
+					<p class="pricing__main-block__paragraph">Free for life</p>
+					<ul class="pricing__main-block__list">
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+					</ul>
 				</div>
-				<div>
-					<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos quod aut esse iusto porro?</blockquote>
-					<div><img src="./images/Ellipse 7 (1).svg" alt="JaydonFace"></div>
-					<div>
-						<h4>Jaydon Rosser</h4>
-						<p>Manager</p>
-					</div>
+
+				<div class="pricing__main-block__box">
+					<h3 class="pricing__main-block__header-text">Optima</h3>
+					<div class="pricing__main-block__price">$20</div>
+					<p class="pricing__main-block__paragraph">Free for life</p>
+					<ul class="pricing__main-block__list">
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+					</ul>
 				</div>
-				<div>
-					<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos quod aut esse iusto porro?</blockquote>
-					<div><img src="./images/Ellipse 7 (2).svg" alt="CooperFace"></div>
-					<div>
-						<h4>Cooper Dorwart</h4>
-						<p>Manager</p>
-					</div>
-				</div>	
+
+				<div class="pricing__main-block__box">
+					<h3 class="pricing__main-block__header-text">Pro</h3>
+					<div class="pricing__main-block__price">$30</div>
+					<p class="pricing__main-block__paragraph">Free for life</p>
+					<ul class="pricing__main-block__list">
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+						<li class="pricing__main-block__list-item">1 Gb Of Space</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 
-		<section>
-			<h2>STYLISH AXURE DESIGN</h2>
-			<hr>
-			<p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
-			<a href="">Download</a>
+		<section class="reviews">
+			<h2 class="reviews__header-text">WHAT OUR CUSTOMERS ARE SAYING</h2>
+			<hr class="reviews__hr">
+			<p class="reviews__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, laudantium?</p>
+			<div class="reviews__main-block">
+				<div class="reviews__main-block__box">
+					<blockquote class="reviews__main-block__blockquote">Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit. Harum quos quod aut esse iusto porro?</blockquote>
+					<div class="reviews__main-block__image-block"><img src="./images/Ellipse 7.svg" alt="DavisFace"
+							class="reviews__main-block__image-block__image"></div>
+					<div class="reviews__main-block__text-block">
+						<h4 class="reviews__main-block__text-block__name">Davis Rhiel Madsen</h4>
+						<p class="reviews__main-block__text-block__speciality">Manager</p>
+					</div>
+				</div>
+				<div class="reviews__main-block__box">
+					<blockquote class="reviews__main-block__blockquote">Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit. Harum quos quod aut esse iusto porro?</blockquote>
+					<div class="reviews__main-block__image-block"><img src="./images/Ellipse 7 (1).svg" alt="JaydonFace"
+							class="reviews__main-block__image-block__image"></div>
+					<div class="reviews__main-block__text-block">
+						<h4 class="reviews__main-block__text-block__name">Jaydon Rosser</h4>
+						<p class="reviews__main-block__text-block__speciality">Manager</p>
+					</div>
+				</div>
+				<div class="reviews__main-block__box">
+					<blockquote class="reviews__main-block__blockquote">Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit. Harum quos quod aut esse iusto porro?</blockquote>
+					<div class="reviews__main-block__image-block"><img src="./images/Ellipse 7 (2).svg" alt="CooperFace"
+							class="reviews__main-block__image-block__image"></div>
+					<div class="reviews__main-block__text-block">
+						<h4 class="reviews__main-block__text-block__name">Cooper Dorwart</h4>
+						<p class="reviews__main-block__text-block__speciality">Manager</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
-		<section>
-			<h2>CONTACT US</h2>
-			<hr>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, exercitationem.</p>
-			<ul>
+		<section class="second-banner">
+			<h2 class="second-banner__header-text">STYLISH AXURE DESIGN</h2>
+			<hr class="second-banne__hr">
+			<p class="second-banner__paragraph">Use the sections you need, remove the ones you don't. Create gorgeous
+				prototypes faster than ever!</p>
+			<button class="second-banner__button">Download</button>
+		</section>
+
+		<section class="contact">
+			<h2 class="contact__header-text">CONTACT US</h2>
+			<hr class="contact__hr">
+			<p class="contact__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus,
+				exercitationem.</p>
+			<ul class="contact__list">
 				<li>
 					<p>Name</p>
 					<input type="text">
@@ -223,22 +252,28 @@
 					<input type="text">
 				</li>
 			</ul>
-			<button>Send Message</button>
+			<button class="contact__button">Send Message</button>
 		</section>
 	</main>
 
-	<footer>
-		<ul>
-			<!-- И вновь представим, что картинки не одинаковые :) -->
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
-			<li><a href=""><img src="./images/Vector.svg" alt="facebook"></a></li>
+	<footer class="footer">
+		<ul class="footer__link-list">
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img src="./images/Vector.svg"
+						alt="facebook" class="footer__link-list__image"></a></li>
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img
+						src="./images/Vector (4).svg" alt="facebook" class="footer__link-list__image"></a></li>
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img
+						src="./images/Vector (5).svg" alt="facebook" class="footer__link-list__image"></a></li>
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img
+						src="./images/Vector (6).svg" alt="facebook" class="footer__link-list__image"></a></li>
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img
+						src="./images/Vector (7).svg" alt="facebook" class="footer__link-list__image"></a></li>
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img
+						src="./images/Vector (8).svg" alt="facebook" class="footer__link-list__image"></a></li>
+			<li class="footer__link-list__item"><a href="" class="footer__link-list__link"><img
+						src="./images/Vector (9).svg" alt="facebook" class="footer__link-list__image"></a></li>
 		</ul>
-		<div><p>&copy; 2015 Axure Themes</p></div>
+		<p class="footer__copyright-block__paragraph">&copy; 2015 Axure Themes</p>
 	</footer>
 </body>
 
