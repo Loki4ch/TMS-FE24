@@ -8,7 +8,7 @@ body {
 	font-size: 18px;
 	line-height: 21px;
 	color: #000000;
-	/*background-color: #FFFFFF;*/
+	background-color: #FFFFFF;
 }
 
 h1,
@@ -158,11 +158,15 @@ h6,
 }
 
 .header__menu__item {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
 
 .header__menu__link {
+	width: 114px;
+	height: 75px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
@@ -170,6 +174,10 @@ h6,
 	font-size: 14px;
 	line-height: 19px;
 	color: #ffffff;
+}
+
+.header__menu__paragraph {
+   margin-top: 27px;
 }
 
 .header__menu__link:hover {
@@ -253,19 +261,18 @@ h6,
 }
 
 .main-banner__form__button {
-	width: 470px;
+	width: 100%;
 	height: 60px;
 	border-radius: 0px 0px 10px 10px;
+	transform: translate(0px, 198px);
 	}
 
 .social-media {
 	width: 100%;
-	/*height: 140px;*/
 	background: #F8EFEF;
 }
 
 .social-media__main-block {
-	/*height: 140px;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -291,7 +298,6 @@ h6,
 
 .social-media__link-list {
 	width: 670px;
-	/*height: 70px;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -307,12 +313,12 @@ h6,
 }
 
 .social-media__link-list__image {
-	/*vertical-align: middle;*/
+
 }
 
 .features {
 	width: 100%;
-	/*height: 639px;*/
+	position: relative;
 }
 
 .features__tabs-list {
@@ -343,17 +349,21 @@ h6,
 	border-radius: 5px 5px 0px 0px;
 }
 
+.rectangle {
+	position: absolute;
+	transform: translate(1px, 138px);
+	width: 199px;
+	height: 1px;
+	background: #FFFFFF
+}
+
 .features__main-block {
-	/*width: 1170px;*/
-	/*height: 501px;*/
 	border: 1px solid #C6CBCD;
 	display: flex;
 	justify-content: space-between;
 }
 
 .features__text-block {
-	/*width: 570px;*/
-	/*height: 500px;*/
 	margin: 0px 30px 0px 100px;
 }
 
@@ -375,8 +385,7 @@ h6,
 }
 
 .features__image-block {
-	/*width: 470px;*/
-	/*height: 500px;*/
+
 }
 
 .features__image {
@@ -386,18 +395,15 @@ h6,
 
 .about {
 	width: 100%;
-	/*height: 773px;*/
 }
 
 .about__main-block {
-	/*width: 1170px;*/
 	margin-top: 71px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .about__main-block__card {
-	/*width: 370px;*/
 	text-align: center;
 	padding-bottom: 58px;
 }
@@ -422,13 +428,10 @@ h6,
 
 .pricing {
 	width: 100%;
-	/*height: 900px;*/
 	background-color: #F5F5F5;
 }
 
 .pricing__main-block {
-	/*width: 1170px;
-	height: 510px;*/
 	margin-top: 79px;
 	display: flex;
 	justify-content: space-between;
@@ -437,7 +440,6 @@ h6,
 
 .pricing__main-block__box {
 	width: 370px;
-	/*height: 510px;*/
 	text-align: center;
 	background-color: #333333;
 	color: #ffffff;
@@ -472,18 +474,26 @@ h6,
 
 .reviews {
 	width: 100%;
-	/*height: 744px;*/
 }
 
 .reviews__main-block {
-	/*height: 336px;*/
 	margin: 83px 0px 64px 0px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .reviews__main-block__box {
+	position: relative;
+}
 
+.triangle {
+	position: absolute;
+	transform: translate(70px,180px);
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
 }
 
 .reviews__main-block__blockquote {
@@ -507,28 +517,23 @@ h6,
 }
 
 .reviews__main-block__text-block {
-	/*width: 270px;*/
-	/*height: 90px;*/
 	margin: -70px 0px 0px 100px;
 }
 
 .reviews__main-block__text-block__name {
-	/*width: 269px;
-	height: 54px;*/
 	padding-top: 10px;
 }
 
 .reviews__main-block__text-block__speciality {
-	/*height: 21px;*/
 	margin-top: 25px;
 }
 
 .second-banner {
 	width: 100%;
-	/*height: 442px;*/
 	background-image: url(../images/bg\ \(1\).png), url(../images/image\ \(1\).jpg);
 	background-size: cover;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .second-banner__button {
@@ -536,12 +541,11 @@ h6,
 }
 
 .contact {
-
+	text-align: center;
 }
 
 .contact__button {
-	margin: 50px auto 50px;
-
+	margin: 73px auto 50px;
 }
 
 .footer {
@@ -560,14 +564,14 @@ h6,
 
 .footer__link-list__item {
 	background-size: cover;
-	width: 53.2px;
-	height: 53.2px;
+	width: 53px;
+	height: 53px;
 }
 
 .footer__link-list__image {
    vertical-align: middle;
-	width: 53.2px;
-	height: 53.2px;
+	width: 53px;
+	height: 53px;
 }
 
 .footer__copyright-block__paragraph {
