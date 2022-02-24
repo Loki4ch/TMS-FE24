@@ -1,0 +1,24 @@
+* { 
+	box-sizing: border-box;
+}
+
+.top-box {
+	width: 100%;
+	height: 300px;
+	background: #f43;
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.row {
+	margin-top: 100px;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	background: rgb(89, 0, 255);
+}
