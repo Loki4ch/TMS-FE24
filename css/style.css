@@ -130,6 +130,8 @@ h6,
 .header {
 	width: 100%;
 	background-color: black;
+	/*position: fixed;*/
+	z-index: 1;
 }
 
 .header__nav {
@@ -150,7 +152,7 @@ h6,
 }
 
 .header__menu {
-	width: 570px;
+	min-width: 570px;
 	margin-right: 170px;
 	display: flex;
 	justify-content: space-around;
@@ -165,11 +167,10 @@ h6,
 }
 
 .header__menu__link {
-	width: 114px;
+	min-width: 114px;
 	height: 75px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 19px;
@@ -191,11 +192,21 @@ h6,
 }
 
 .main-banner {
-	width: 100%;
-	background-image: url(../images/bg.png), url(../images/image.jpg);
+	background-image: url(../images/image.jpg);
 	color: #FFFFFF;
 	/*background-repeat: no-repeat;*/
 	background-size: cover;
+	position: relative;
+	z-index: 0;
+}
+
+.main-banner__shadow-block {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: -1;
 }
 
 .main-banner__content-block {
@@ -394,7 +405,7 @@ h6,
 }
 
 .about {
-	width: 100%;
+
 }
 
 .about__main-block {
@@ -404,6 +415,7 @@ h6,
 }
 
 .about__main-block__card {
+	max-width: 370px;
 	text-align: center;
 	padding-bottom: 58px;
 }
@@ -473,7 +485,7 @@ h6,
 }
 
 .reviews {
-	width: 100%;
+	
 }
 
 .reviews__main-block {
@@ -483,28 +495,31 @@ h6,
 }
 
 .reviews__main-block__box {
+
+}
+
+.reviews__main-block__blockquote {
+	max-width: 370px;
+	padding: 38px 15px 37px 15px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
 	position: relative;
+}
+
+.reviews__blockquote-text {
+	color: #86878B;
+	text-align: center;
 }
 
 .triangle {
 	position: absolute;
-	transform: translate(70px,180px);
+	bottom: -20px;
+	left: 70px;
 	width: 0;
 	height: 0;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	border-top: 20px solid #E2E2E2;
-}
-
-.reviews__main-block__blockquote {
-	width: 370px;
-	height: 180px;
-	color: #86878B;
-	background-color: #E2E2E2;
-	border-radius: 10px;
-	display: flex;
-	align-items: center;
-	text-align: center;
 }
 
 .reviews__main-block__image-block {
@@ -529,11 +544,21 @@ h6,
 }
 
 .second-banner {
-	width: 100%;
-	background-image: url(../images/bg\ \(1\).png), url(../images/image\ \(1\).jpg);
+	background-image: url(../images/image\ \(1\).jpg);
 	background-size: cover;
 	color: #FFFFFF;
 	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.second-banner__shadow-block {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: -1;
 }
 
 .second-banner__button {
