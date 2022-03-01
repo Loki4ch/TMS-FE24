@@ -252,7 +252,7 @@ h6,
 	margin-top: 42px;
 }
 
-.main-banner__form {
+/*.main-banner__form {
 	margin-top: 208px;
 	width: 470px;
 	height: 450px;
@@ -260,22 +260,45 @@ h6,
 	color: #333333;
 	border-radius: 10px;
 	text-align: center;
+}*/
+
+.form {
+	width: 470px;
+	margin: 100px auto;
+	color: #333333;
+	background: #fff ;
+	border-radius: 10px;
 }
 
-.main-banner__form__title {
-	margin: 28px auto 0px;
+.form-inner {
+	padding: 30px 50px 75px;
 }
 
-.main-banner__form__span-word {
+.form__title {
+	text-align: center;
+}
+
+.form-input {
+	width: 100%;
+	font: 400 14/19 "Open Sans", serif;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+.form-input::placeholder {
+	color: #BDBDBD;
+}
+
+.form__span-word {
 	vertical-align: text-top;
 	color: #EC7979;
 }
 
-.main-banner__form__button {
+.form__button {
 	width: 100%;
 	height: 60px;
 	border-radius: 0px 0px 10px 10px;
-	transform: translate(0px, 198px);
 	}
 
 .social-media {
