@@ -53,9 +53,9 @@
 						<form class="form">
 							<div class="form-inner">
 							<h3 class="title4 form__title">TRY YOUR <span class="form__span-word">FREE</span> TRIAL TODAY</h3>
-							<input class="form-input" type="text" placeholder="Name">
-							<input class="form-input" type="email" placeholder="Email">
-							<input class="form-input" type="password" placeholder="Password">
+							<input class="form-input form-input--main-banner" type="text" placeholder="Name">
+							<input class="form-input form-input--main-banner" type="email" placeholder="Email">
+							<input class="form-input form-input--main-banner" type="password" placeholder="Password">
 							</div>
 							<button class="form__button button">Get Started</button>
 						</form>
@@ -74,8 +74,7 @@
 					</div>
 					<div class="social-media__list-block">
 						<ul class="social-media__link-list">
-							<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
-										src="./images/Vector.svg" alt="facebook" class="social-media__link-list__image"></a></li>
+							<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><i class="fa-brands fa-facebook-f facebook"></i></a></li>
 							<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
 										src="./images/Vector (4).svg" alt="facebook" class="social-media__link-list__image"></a></li>
 							<li class="social-media__link-list__item"><a href="" class="social-media__link-list__link"><img
@@ -274,24 +273,16 @@
 					<p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus,
 						exercitationem.</p>
 				</div>
-				<ul class="contact__list">
-					<li>
-						<p>Name</p>
-						<input type="text">
-					</li>
-					<li>
-						<p>Email</p>
-						<input type="text">
-					</li>
-					<li>
-						<p>Password</p>
-						<input type="text">
-					</li>
-					<li>
-						<p>Message</p>
-						<input type="text">
-					</li>
-				</ul>
+				<div class="contact__form-block">
+					<div class="contact__col1">
+						<input class="form-input form-input--contact" type="text" placeholder="Name">
+						<input class="form-input form-input--contact" type="email" placeholder="Email">
+						<input class="form-input form-input--contact" type="password" placeholder="Password">
+					</div>
+					<div class="contact__col1">
+						<textarea class="form-input form-input--contact" name="text" placeholder="Message"></textarea>
+					</div> 
+				</div>
 				<button class="contact__button button">Send Message</button>
 			</div>
 		</section>
