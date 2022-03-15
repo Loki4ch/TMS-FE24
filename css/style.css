@@ -488,7 +488,7 @@ h6,
 }
 
 .pricing__main-block__box {
-	width: 370px;
+	max-width: 370px;
 	text-align: center;
 	background-color: #333333;
 	color: #ffffff;

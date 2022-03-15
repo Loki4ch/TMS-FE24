@@ -3,7 +3,33 @@
 }
 
 @media only screen and (max-width: 991px) {
-	
+	.about__main-block {
+      display: block;
+   }
+
+   .about__main-block__card {
+      margin: 0 auto;
+   }
+
+   .pricing__main-block { 
+      display: block;
+   }
+
+   .pricing__main-block__box {
+      margin: 0 auto 30px;
+   }
+
+   .pricing__center-box {
+      transform: translateY(0px);
+   }
+
+   .reviews__main-block__box {
+      margin: 0 auto 30px;
+   }
+
+   .reviews__main-block {
+      display: block;
+   }
 }
 
 @media only screen and (max-width: 767px) {
