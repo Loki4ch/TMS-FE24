@@ -210,12 +210,11 @@ h6,
 .main-banner__content-block {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 208px;
+	padding-bottom: 185px;
 }
 
 .main-banner__text-block {
-	width: 670px;
-	margin-top: 208px;
-	margin-bottom: 185px;
 }
 
 .main-banner__logo-block {
@@ -238,7 +237,7 @@ h6,
 }
 
 .main-banner__divider {
-	margin: 54px 0px 0px 0px;
+	margin: 54px 0 0 0;
 }
 
 .main-banner__paragraph {
@@ -250,16 +249,17 @@ h6,
 	margin-top: 42px;
 }
 
+.form-wrap {
+}
+
 .form {
-	width: 470px;
-	margin: 208px auto 0px;
 	color: #333333;
 	background: #fff ;
 	border-radius: 10px;
 }
 
 .form-inner {
-	padding: 24px 50px 72px;
+	padding: 28px 50px 78px;
 }
 
 .form__title {
@@ -284,7 +284,7 @@ h6,
 }
 
 .form-inner input:nth-child(2) {
-	margin-top: 68px;
+	margin-top: 73px;
 }
 
 .form-input::placeholder {
@@ -532,11 +532,10 @@ h6,
 }
 
 .reviews__main-block__box {
-
+	max-width: 370px;
 }
 
 .reviews__main-block__blockquote {
-	max-width: 370px;
 	padding: 38px 15px 37px 15px;
 	background-color: #E2E2E2;
 	border-radius: 10px;
