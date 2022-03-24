@@ -182,6 +182,16 @@ h6,
 .header__menu__link:hover {
 	text-transform: uppercase;
 	background-color: #EC7979;
+	animation: hover-color-fill 0.2s ease-in 1 alternate forwards;
+}
+
+@keyframes hover-color-fill {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .header__menu__link:active {
