@@ -145,6 +145,17 @@
 		max-width: 317px;
 		padding: 50px 15px 50px 15px;
 	}
+
+	.second-banner__button {
+		max-width: 318px;
+	}
+
+	.form-input--contact {
+		max-width: 486px;
+	}
+	.textarea--contact {
+		max-width: 486px;
+	}
 }
 
 @media only screen and (max-width: 991px) {

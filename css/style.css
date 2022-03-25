@@ -634,14 +634,14 @@ h6,
 	margin: 0;
 }
 
-.contact__col2 textarea:first-child {
+.contact__col2:first-child {
 	margin: 0;
 	padding-bottom: 192px;
 }
 
 textarea.form-input {
-	width: 570px;
-	height: 211px;
+	width: 100%;
+	min-height: 211px;
 	resize: vertical;
 	padding: 0px;
 }
