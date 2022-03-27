@@ -199,6 +199,11 @@ h6,
 	background-color: #AB4949;
 }
 
+.header__burger-block {
+	display: none;
+	background-color: red;
+}
+
 .main-banner {
 	background-image: url(../images/image.jpg);
 	color: #FFFFFF;

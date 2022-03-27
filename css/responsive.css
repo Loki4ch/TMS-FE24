@@ -217,6 +217,79 @@
 	.paragraph {
 		margin-top: 24px;
 	}
+
+	.header__logo-image {
+		margin-left: 40px;
+	}
+	.header__menu {
+		display: none;
+	}
+	.header__burger-block {
+		display: block;
+		background: none;
+		margin-right: 40px;
+	}
+	.header__burger-icon {
+		width: 35px;
+		height: 35px;
+	}	
+
+	.main-banner__content-block {
+		display: block;
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+	.main-banner__text-block {
+		text-align: center;
+		padding: 0;
+		margin-bottom: 75px;
+	}
+	.main-banner__logo-block {
+		margin: 0 auto;
+	}
+	.main-banner__block-under-h1 {
+		max-width: 622px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.main-banner__paragraph {
+		padding-top: 40px;
+	}
+	.main-banner__divider {
+		margin: 40px auto 0;
+	}
+	.main-banner__download-button {
+		margin-top: 40px;
+		width: 300px;
+	}
+
+	.form-wrap {
+		max-width: 722px;
+		padding: 0 50px 0 50px;
+		margin: 0 auto;
+	}
+
+	.social-media {
+		padding-bottom: 15px;
+	}
+	.social-media__main-block {
+		display: block;
+	}
+	.social-media__text-block {
+		text-align: center;
+	}
+	.social-media__link-list {
+		max-width: 670px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 20px auto 0;
+	}
+
+	.features__text-block {
+		margin-left: 30px;
+	}
+
 	.about__main-block, .pricing__main-block, .reviews__main-block {
 		display: block;
 	}
@@ -233,6 +306,49 @@
 	.pricing__main-block {
 		margin-top: 24px;
 		padding-bottom: 26px;
+	}
+
+	.reviews__main-block__box {
+		min-width: 722px;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-bottom: 50px;
+	}
+	.reviews__main-block__box:first-child {
+		padding-left: 50px;
+	}
+	.reviews__main-block__box:last-child {
+		padding-right: 50px;
+		margin-bottom: 0;
+	}
+	.reviews__main-block__blockquote {
+		padding: 25px 15px 25px 15px;
+		background-color: #E2E2E2;
+		border-radius: 10px;
+		position: relative;
+	}
+	.reviews__main-block__image-block {
+		margin-top: 40px;
+	}
+
+	.contact__form-block {
+		display: block;
+	}
+	.form-input--contact {
+		max-width: none;
+	}
+	.contact__col1 {
+		max-width: 722px;
+		margin: 0 auto;
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.contact__col2 {
+		max-width: 722px;
+		margin: 50px auto 0;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
 
