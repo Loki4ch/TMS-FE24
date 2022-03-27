@@ -70,10 +70,10 @@
 		margin-bottom: 13px;
 	}
 	.social-media__header-text {
-		line-height: 45px;
+		padding-top: 12px;
 	}
 	.social-media__paragraph {
-		margin-top: 13px;
+		margin-top: 23px;
 	}
 	.social-media__link-list {
 		width: 568px;
@@ -83,6 +83,9 @@
 		height: 64px;
 	}
 
+	.features__tabs-list {
+		padding-top: 50px;
+	}
 	.features__text-block {
 		margin: 0px 26px 0px 85px;
 	}
@@ -127,6 +130,8 @@
 		height: 57px;
 	}
 	.about__main-block__header-text {
+		font-style: 24px;
+		line-height: 33px;
 		margin-top: 62px;
 	}
 	.about__main-block__paragraph {
@@ -234,6 +239,9 @@
 		height: 35px;
 	}	
 
+	.main-banner {
+		background-position: center;
+	}
 	.main-banner__content-block {
 		display: block;
 		padding-top: 100px;
@@ -357,5 +365,133 @@
 }
 
 @media only screen and (max-width: 575px) {
+
+.title-block {
+	padding-top: 0;
+}
+.title2 {
+	font-size: 18px;
+	line-height: 21px;
+	padding-top: 50px;
+}
+
+.divider {
+	width: 134px;
+	margin-top: 50px;
+}
+
+.header__logo-image {
+	max-width: 130px;
+	max-height: 56px;
+	margin-left: 20px;
+}
+.header__burger-block {
+	max-height: 56px;
+	margin-right: 20px;
+}
+.header__burger-icon {
+	width: 24px;
+	height: 18px;
+}
+
+.container {
+	
+	padding: 0 16px;
+}
+
+.main-banner {
+	background-position: center;
+}
+.main-banner__content-block {
+	display: block;
+	padding-top: 84px;
+	padding-bottom: 50px;
+}
+.main-banner__text-block {
+	margin: 0;
+}
+.main-banner__logo-block {
+	display: none;
+}
+.main-banner__divider {
+	width: 144px;
+	margin-top: 43px;
+}
+.main-banner__paragraph {
+	padding-top: 42px;
+}
+.main-banner__download-button {
+	max-width: 288px;
+	margin: 42px 0 56px 0;
+}
+
+.form-wrap {
+	padding: 0;
+}
+.form-inner {
+	padding: 28px 28px 54px 20px;
+}
+.form__title {
+	font-size: 14px;
+	line-height: 19px;
+}
+.form-inner input:nth-child(2) {
+	margin-top: 28px;
+}
+
+.social-media__header-text {
+	padding-top: 41px;
+}
+.social-media__link-list {
+display: none;
+}
+
+.features__main-block {
+	display: block;
+}
+.features__text-block {
+	margin: 0;
+	padding: 43px 21px 30px 25px;
+	text-align: center;
+}
+.features__text-block__header-text {
+	padding: 0;
+	font-size: 18px;
+	line-height: 25px;
+}
+.features__text-block__paragraph_1 {
+	padding-top: 72px;
+	font-size: 13px;
+	line-height: 15px;
+}
+.features__text-block__paragraph_2 {
+	font-size: 13px;
+	line-height: 15px;
+}
+.features__text-block__download-button {
+	margin-top: 29px;
+}
+.features__image-block {
+	display: none;
+}
+
+.about__main-block {
+	margin-top: 84px;
+}
+.about__main-block__card {
+	padding: 0;
+}
+.about__main-block__image-block {
+	margin-top: 44px;
+}
+.about__main-block__paragraph {
+	margin-top: 37px;
+}
+.about__main-block__card:last-child {
+	margin-bottom: 60px;
+}
+
+
+
 
 }
