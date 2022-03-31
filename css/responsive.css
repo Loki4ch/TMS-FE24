@@ -142,11 +142,7 @@
 		margin-top: 50px;
 		padding-bottom: 50px;
 	}
-	.pricing__main-block__box {
-		max-width: 375px;
-		padding: 0px 10px 0px 10px;
-		flex-shrink: 0;
-	}
+
 	.pricing__main-block__header-text {
 		font-size: 24px;
 		line-height: 33px;
@@ -165,9 +161,9 @@
 	}
 	.pricing__center-box {
 		transform: translateY(-18px);
-		padding: 0;
+		/* padding: 0;
 		margin: 0 10px 0 10px;
-		flex-shrink: 1;
+		flex-shrink: 1; */
 	}
 	.pricing__main-block__box:first-child {
 		padding-left: 0px;
@@ -257,6 +253,10 @@
 		max-width: 960px;
 	}
 
+	.invisible-col--2, .invisible-col--3, .invisible-col--4, .invisible-col--5  {
+		display: block;
+	} 
+
 	.header__logo-image {
 		margin-left: 40px;
 	}
@@ -336,15 +336,20 @@
 		margin-left: 30px;
 	}
 
-	.about__main-block, .pricing__main-block, .reviews__main-block {
+	.about__main-block, .reviews__main-block {
 		display: block;
 	}
-	.about__main-block__card, .pricing__main-block__box, .reviews__main-block__box {
+	.about__main-block__card, .reviews__main-block__box {
 		margin: 0 auto;
 	}
 	.pricing__center-box {
 		transform: translate(0, 0);
 		box-shadow: none;
+	}
+	.pricing__main-block {
+	grid-template-columns: minmax(auto, auto) minmax(auto, 318px) minmax(auto, 318px) minmax(auto, 318px) minmax(auto, auto);
+	grid-template-rows:  minmax(auto, auto);
+	row-gap: 30px;
 	}
 	.pricing__main-block__box:not(:last-child) {
 		margin-bottom: 27px;
@@ -396,6 +401,12 @@
 		padding-left: 50px;
 		padding-right: 50px;
 	}
+	.pricing__main-block {
+		grid-template-columns: minmax(auto, auto) minmax(288px,370px) minmax(auto, auto);
+		grid-template-rows:  minmax(auto, auto) minmax(auto,auto) minmax(auto, auto);
+		column-gap: 0px;
+		row-gap: 10px;
+		}
 }
 
 @media only screen and (max-width: 767px) {
@@ -531,6 +542,14 @@
 	.about__main-block__card:last-child {
 		margin-bottom: 60px;
 	}
+
+	.pricing__main-block {
+		grid-template-columns: minmax(auto, auto) minmax(288px,300px) minmax(auto, auto);
+		grid-template-rows:  minmax(auto, auto) minmax(auto,auto) minmax(auto, auto);
+		column-gap: 0px;
+		row-gap: 10px;
+		}
+
 	.pricing__main-block__header-text {
 		font-size: 18px;
 		line-height: 25px;
