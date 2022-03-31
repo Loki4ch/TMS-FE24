@@ -361,28 +361,12 @@ h6,
 	height: 70px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;  
 }
 
-.social-media__link-list__image {
-
-}
-
-.social-media__link-list__link { 
-
-}
-
-.fa-brands {
-	font-size: 50px;
+.fa-brands--social {
+	font-size: 60px;
 	color: #ccc;
-}
-
-.instagram {
-	
-}
-
-.features {
-	position: relative;
 }
 
 .features__tabs-list {
@@ -393,7 +377,7 @@ h6,
 
 .features__tabs-list__item {
 	width: 184px;
-	height: 39px;
+	min-height: 39px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -406,25 +390,25 @@ h6,
 }
 
 .tab1 {
-	width: 201px;
 	border-top: 1px solid #C6CBCD;
 	border-right: 1px solid #C6CBCD;
 	border-left: 1px solid #C6CBCD;
 	border-radius: 5px 5px 0px 0px;
-}
-
-.rectangle {
-	position: absolute;
-	transform: translate(1px, 138px);
-	width: 199px;
-	height: 1px;
-	background: #FFFFFF
+	position: relative;
 }
 
 .features__main-block {
 	border: 1px solid #C6CBCD;
 	display: flex;
 	justify-content: space-between;
+}
+.rectangle {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -1px;
+	height: 1px;
+	background: #FFFFFF;
 }
 
 .features__text-block {
@@ -530,6 +514,8 @@ h6,
 }
 
 .pricing__main-block__price {
+	font-size: 36px;
+	line-height: 42px;
 	padding: 28px 0px 28px 0px;
 	border-bottom: 2px solid #FFFFFF;
 }
@@ -609,6 +595,10 @@ h6,
 	margin-top: 25px;
 }
 
+.reviews__dots-list-block {
+	display: none;
+}
+
 .second-banner {
 	background-image: url(../images/image\ \(1\).jpg);
 	background-size: cover;
@@ -676,32 +666,34 @@ textarea.form-input {
 }
 
 .footer {
-	height: 164px;
 	background-color: #000000;
 }
 
 .footer__link-list {
-	width: 570px;
+	width: 622px;
 	margin: 0 auto;
 	padding-top: 35px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .footer__link-list__item {
-	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
 	width: 53px;
 	height: 53px;
 }
 
-.footer__link-list__image {
-   vertical-align: middle;
-	width: 53px;
-	height: 53px;
+.fa-brands--footer {
+	font-size: 50px;
+	color: #ccc;
 }
 
 .footer__copyright-block__paragraph {
 	margin-top: 29px;
+	padding-bottom: 27px;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.5);
 }
